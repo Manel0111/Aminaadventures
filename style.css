@@ -1,0 +1,55 @@
+body{background-color: #291910;}
+h1{color: #291910;
+	font-family: fantasy;
+	font-size: 40px ;
+	background-color: #FFD700;
+	padding: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align: center;
+}
+p{color: white;
+	border-style: double;
+	border border-style: double;
+	padding: 5px;
+	font-family: fantasy;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 30px;}
+
+
+ul {
+	margin:0px;
+	display: flex;
+	justify-content: center;
+    background-color: gold;
+	list-style-type: none;}
+
+img {border-style: dotted;
+border-width: 10px;
+border-color: royalblue;}
+
+
+
+ul li {
+	float: left;
+
+
+}
+ul li a {
+	
+	display: block;
+	color: #291910;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+	font-family: fantasy;
+
+	
+}
+
+ul li a:hover {
+	background-color: gold;
+	font-family: fantasy;
+	font-size: 20px;
+}
