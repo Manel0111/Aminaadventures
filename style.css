@@ -62,10 +62,16 @@ ul li a:hover {
 	flex-wrap: wrap;
 }
 
+body {
+    margin: 0;
+    background-color: #291910;
+}
+
+/* force le canvas à être centré correctement */
 canvas {
-    display: block;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 40px;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    position: relative !important;
+    top: 0;
 }
