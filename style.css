@@ -64,5 +64,8 @@ ul li a:hover {
 
 canvas {
     display: block;
-    margin: 40px auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 40px;
 }
