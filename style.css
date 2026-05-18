@@ -61,3 +61,8 @@ ul li a:hover {
 	gap: 20px;
 	flex-wrap: wrap;
 }
+
+canvas {
+    display: block;
+    margin: 40px auto;
+}
