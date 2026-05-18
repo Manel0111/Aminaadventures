@@ -62,16 +62,9 @@ ul li a:hover {
 	flex-wrap: wrap;
 }
 
-body {
-    margin: 0;
-    background-color: #291910;
-}
-
-/* force le canvas à être centré correctement */
-canvas {
-    display: block !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    position: relative !important;
-    top: 0;
+#defaultCanvas0 {
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
